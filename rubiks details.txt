@@ -1,0 +1,17 @@
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+
+WIDTH = 20
+HEIGHT = 20
+MARGIN = 5
+SQUARES_PER_SIDE = 3
+NUM_SIDES = 6
+ARRAY_MARGIN = (WIDTH * SQUARES_PER_SIDE) + MARGIN
+
+textSides = ["left", "front", "right", "back", "top", "bottom"]
+d = { 'w' : WHITE, 'g' : GREEN, 'r' : RED, 'b' : BLUE, 'y' : YELLOW, 'o' : ORANGE } 
